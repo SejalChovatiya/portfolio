@@ -464,14 +464,14 @@ label {
 
 .btn-info {
   color: #ffffff;
-  background: #00B4D8;
-  border-color: #00B4D8;
+  background-color: #0672cf !important;
+  border-color: #0672cf !important;
 }
 
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
-  background: #00a3c4;
-  border-color: #00a3c4;
-  color: #ffffff;
+  background: #ffffff !important;
+  border-color: #0672cf !important;
+  color: #0672cf !important;
 }
 
 .btn-outline-info {
