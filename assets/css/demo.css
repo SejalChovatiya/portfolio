@@ -19,6 +19,15 @@ body {
  .header_bg h6 {
   color: #898b8d;
  }
+ @media(min-width:818px) {
+  .header_bg h6:nth-child(2){
+    text-align: center;
+   }
+   .header_bg h6:nth-child(3){
+    text-align: right;
+   }
+ }
+ 
  .back_bg {
   background-image: url("https://i.ibb.co/FzcmDDr/Untitled-1.jpg");
   opacity: 0.15;
@@ -34,6 +43,13 @@ body {
 .home-wrapper {
   padding: 120px 0;
 }
+/* @media (max-width : 768px) {
+  .home-wrapper {
+    padding: 0px 0 50px 0;
+  }
+} */
+
+
 .me_img img {
   z-index: 1;
   box-shadow: -10px 1px 50px rgba(153, 153, 153, 0.35);
@@ -52,14 +68,47 @@ body {
   z-index: -1;
 }
 
+@media (max-width : 991px) {
+  .me_img::after {
+    content: "";
+    position: absolute;
+    top: -35px;
+    right: -35px;
+    width: 216px;
+    height: 324px;
+    background-color: transparent;
+    border: 2px solid #0672cf;
+    border-radius: 4px;
+    z-index: -1;
+  }
+}
+
+@media (max-width : 768px) {
+  .me_img {
+    text-align: center;
+  }
+  .me_img::after {
+    content: "";
+    position: absolute;
+    top: -35px;
+    right: 68px;
+    width: 307px;
+    height: 460px;
+    background-color: transparent;
+    border: 2px solid #0672cf;
+    border-radius: 4px;
+    z-index: -1;
+  }
+}
+
 
 .home-wrapper .logo {
   margin-top: 80px;
   font-weight: 400;
 }
 
-.home-wrapper h5 {
-  font-size: 70px;
+.home-wrapper h1 {
+  /* font-size: 70px; */
   line-height: 1;
   color: #132027;
 }
@@ -148,3 +197,10 @@ body {
 .btn-custom {
     background-color: #27ae61;
 }
+
+
+/* @media (min-width:768px)and(max-width:991px){ 
+  .home-wrapper h5 {
+    font-size: 40px !important;
+  }
+  } */
