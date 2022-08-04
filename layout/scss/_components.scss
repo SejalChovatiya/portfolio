@@ -28,8 +28,8 @@
 $value in $colors {
     .btn-#{$name} {
         color: $white;
-        background: #{$value};
-        border-color: #{$value};
+        background: #{$value} !important;
+        border-color: #{$value} !important;
         &:hover,
         &:focus,
         &:active,
