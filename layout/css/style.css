@@ -21,7 +21,7 @@ File: Main scss file
 body {
   font-size: 0.9rem;
   color: #343a40;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   color: #343a40;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 

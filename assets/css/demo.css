@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #505458;
   font-size: 14px;
   line-height: 22px;
@@ -14,10 +14,13 @@ body {
 }
 
 .header_bg {
-  background-color: #132027;
+  background-color: #1f1f1f;
 }
- .header_bg h6 {
+ .header_bg p {
   color: #898b8d;
+  :nth-child(2){
+    text-align: center;
+  }
  }
  @media(min-width:818px) {
   .header_bg h6:nth-child(2){
@@ -29,8 +32,7 @@ body {
  }
  
  .back_bg {
-  background-image: url("https://i.ibb.co/FzcmDDr/Untitled-1.jpg");
-  opacity: 0.15;
+  background-image: url("https://i.ibb.co/0D7sNSK/modern-background-with-lines.jpg");
   position: absolute;
   left: 0;
   top: 0;
@@ -42,7 +44,10 @@ body {
  }
 
 .home-wrapper {
-  padding: 120px 0;
+  padding: 220px 0;
+  h1 {
+    color: #ffffff;
+  }
 }
 /* @media (max-width : 768px) {
   .home-wrapper {
@@ -109,9 +114,14 @@ body {
 }
 
 .home-wrapper h1 {
-  /* font-size: 70px; */
+  font-size: 100px; 
   line-height: 1;
-  color: #132027;
+  color: #ffffff;
+}
+.home-wrapper h3 {
+  text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 23px;
 }
 
 .home-wrapper .btn {
