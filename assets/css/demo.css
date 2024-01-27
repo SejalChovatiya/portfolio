@@ -15,6 +15,7 @@ body {
 
 .main-hero {
   padding: 140px 0;
+  background-color: #f6faff;
  box-shadow: inset 1px 2px 30px 15px rgba(0, 0, 0, 0.04);
 }
 .main-hero .main-hero-title {
@@ -28,9 +29,15 @@ body {
 .main-hero .main-hero-content {
  z-index: 1; 
  position: relative;
+ color: #343a40;
 }
 .main-hero .main-hero-content .main-title {
   font-size: 50px;
+}
+.main-hero-content h5 {
+  color: #8338EC;
+  font-weight: 600;
+  font-family: 'Poppins';
 }
 
 .header_bg {
