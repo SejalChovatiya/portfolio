@@ -13,11 +13,30 @@ body {
 }
 }
 
+.main-hero {
+  padding: 140px 0;
+ box-shadow: inset 1px 2px 30px 15px rgba(0, 0, 0, 0.04);
+}
+.main-hero .main-hero-title {
+  font-size: 200px;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  color: rgba(237, 242, 251, 0.85);
+  transform: translateX(-50%);
+}
+/* .main-hero .main-hero-content {
+  margin-top: 130px;  
+} */
+.main-hero .main-hero-content .main-title {
+  font-size: 50px;
+}
+
 .header_bg {
-  background-color: #1f1f1f;
+  background-color: #8338EC;
 }
  .header_bg p {
-  color: #898b8d;
+  color: #ffffff;
   :nth-child(2){
     text-align: center;
   }
