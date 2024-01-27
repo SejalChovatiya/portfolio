@@ -25,9 +25,10 @@ body {
   color: rgba(237, 242, 251, 0.85);
   transform: translateX(-50%);
 }
-/* .main-hero .main-hero-content {
-  margin-top: 130px;  
-} */
+.main-hero .main-hero-content {
+ z-index: 1; 
+ position: relative;
+}
 .main-hero .main-hero-content .main-title {
   font-size: 50px;
 }
@@ -40,6 +41,9 @@ body {
   :nth-child(2){
     text-align: center;
   }
+ }
+ .main-section {
+  padding: 100px 0px 100px;
  }
  @media(min-width:818px) {
   .header_bg h6:nth-child(2){
